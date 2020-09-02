@@ -1,20 +1,17 @@
 ﻿using System;
 
-namespace AñoBisiesto
+namespace LeapYear
 {
     class Program
     {
         static void Main(string[] args)
         {
-            
             Console.WriteLine(LeapYear(IngresarAño("Ingresa tu año de nacimiento")));
-
         }
         static int IngresarAño(string mensaje)
         {
             Console.WriteLine(mensaje);
             return int.Parse(Console.ReadLine());
-
         }
         static string LeapYear(int year)
         {

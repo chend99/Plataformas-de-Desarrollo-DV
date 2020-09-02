@@ -8,20 +8,15 @@ namespace AdivinaElNumeroConRandom
         {
             /*JUEGO INSPIRADO DEL FINAL DE PROGRAMACIÓN AVANZADA AHORA CON RANDOM*/
 
-
             int num_max = 100; //Número Máximo del número a generar aleatoriamente.
             int num_min = 1; //Número Mínimo del número a generar aleatoreimente.
 
-            int intentos; //Intentos actuales del usuario
-            int numero_elegido; //Numero elegido actualmente por el usuario
-            int numero_adivinar; //Numero que se tendrá que adivinar, se generará aleatoriamente.
-
-            bool adivinado; //Flag por si el número es adivinado.
-            bool continuar; //Flag para preguntar si el usuario quiere continuar jugando
+            int intentos, numero_elegido, numero_adivinar; //Intentos maximos que tendrá el usuario, Numero elegido actualmente por el usuario, Numero que se tendrá que adivinar, se generará aleatoriamente.
+            bool adivinado, continuar; //Flag por si el número es adivinado, Flag para preguntar si el usuario quiere continuar jugando
 
             do
             {
-                SeteoDelJuego(out intentos,out numero_adivinar, out continuar, out adivinado, num_min, num_max);
+                SeteoDelJuego(out intentos, out numero_adivinar, out continuar, out adivinado, num_min, num_max);
 
                 Console.WriteLine($"Tienes {intentos} intentos para adivinar el número del {num_min} al {num_max} !");
                 while (!adivinado && intentos > 0)
@@ -63,7 +58,7 @@ namespace AdivinaElNumeroConRandom
         static void Fallaste(string mensaje, ref int intentos)
         {
             intentos--;
-            Console.WriteLine(mensaje+ $" Te quedan {intentos} intentos");
+            Console.WriteLine(mensaje + $" Te quedan {intentos} intentos");
         }
         static void Continuar(string mensaje, ref bool continuar)
         {
