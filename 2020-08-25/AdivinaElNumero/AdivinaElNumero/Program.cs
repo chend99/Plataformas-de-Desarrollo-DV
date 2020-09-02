@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Threading;
 
-namespace _2020_08_25
+namespace AdivinaElNumero
 {
     class Program
     {
