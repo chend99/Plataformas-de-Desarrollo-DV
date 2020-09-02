@@ -7,3 +7,5 @@ Este repositorio se utilizará para subir el código de los trabajos y examenes 
 Ejercicios básicos de condicionales y estructuras de repetición (for) en C#.
 ### Clase del 25-08-2020
 Juego de adivinar el número utilizando las estructuras de repetición (while | do-while) en C#.
+### Clase del 01-09-2020
+Agregadoo al juego de la clase del 25-08-2020 el Random.
