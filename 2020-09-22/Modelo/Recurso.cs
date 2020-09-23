@@ -8,5 +8,6 @@ namespace Modelo
     {
         public string nombre { get; set; }
         public Usuario usuario { get; set; }
+
     }
 }

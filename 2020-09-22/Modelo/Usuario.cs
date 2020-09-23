@@ -8,5 +8,11 @@ namespace Modelo
     {
         public string usuario { get; set; }
         public string clave { get; set; }
+
+        public Usuario(string usuario, string clave)
+        {
+            this.usuario = usuario;
+            this.clave = clave;
+        }
     }
 }
