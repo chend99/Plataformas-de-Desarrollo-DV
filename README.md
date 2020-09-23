@@ -9,3 +9,7 @@ Ejercicios básicos de condicionales y estructuras de repetición (for) en C#.
 Juego de adivinar el número utilizando las estructuras de repetición (while | do-while) en C#.
 ### Clase del 01-09-2020
 Agregado el Objeto Random al juego de adivinar el número. Uso de Métodos.
+### Clase del 08-09-2020
+Calculadora básica practicando Objetos y herencia en C#.
+### Clase del 22-09-2020
+Modelando objetos para el primer parcial
