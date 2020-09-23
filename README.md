@@ -12,4 +12,4 @@ Agregado el Objeto Random al juego de adivinar el número. Uso de Métodos.
 ### Clase del 08-09-2020
 Calculadora básica practicando Objetos y herencia en C#.
 ### Clase del 22-09-2020
-Modelando objetos para el primer parcial
+Modelando objetos para el primer parcial. Uso de Listas.
